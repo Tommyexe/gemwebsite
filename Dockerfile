@@ -1,6 +1,9 @@
 # Usa un'immagine base con PHP + Apache
 FROM php:8.2-apache
 
+# Installa e abilita l'estensione mysqli
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+
 # Copia tutti i file del tuo progetto nella cartella di Apache
 COPY . /var/www/html/
 
