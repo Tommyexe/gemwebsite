@@ -2,7 +2,7 @@ document.getElementById("check-form").addEventListener("submit", function(e) {
     e.preventDefault();
     let formData = new FormData(this);
     
-    fetch("http://localhost/megwebsite2/submit.php", {
+    fetch("https://gemwebsite-production.up.railway.app/submit.php", {
         method: "POST",
         body: formData
     })
