@@ -788,7 +788,7 @@ couple-area end
 @media (max-width: 767px) {
     .count-down-section #clock {
         display: flex;
-        flex-wrap: wrap;
+        gap: 6px;
         justify-content: space-between;
     }
 
@@ -1724,6 +1724,10 @@ home-page2
 .count-down-clock .box .date {
     font-family: 'Great Vibes', cursive;
     font-weight: 400;
+}
+
+.count-down-clock .box{
+    border: none!important;
 }
 
 .section-area {

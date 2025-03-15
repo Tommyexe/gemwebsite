@@ -365,6 +365,8 @@ extra small mobile 320px.
             .count-down-section h2 {
                 text-align: center;
                 padding-bottom: 30px;
+                width:  -webkit-fill-available;
+                margin: 0 12px;
             }
             .gallery-menu button {
                 margin-top: 15px;
@@ -435,7 +437,7 @@ extra small mobile 320px.
                 max-width: 40%;
             }
             .count-down-clock {
-                padding: 70px 0 40px;
+                padding: 24px 0 24px;
             }
             .count-down-section #clock>div+div {
                 margin-left: 0;
@@ -526,7 +528,7 @@ extra small mobile 320px.
             .section-title2.section-title3 h2::before {
                 width: 76%;
                 height: 47%;
-                bottom: -9px;
+                bottom: -24px;
                 left: 14%;
             }
             .service-area-menu li a {
