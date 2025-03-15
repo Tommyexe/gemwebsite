@@ -1757,6 +1757,7 @@ home-page2
 
 .welcome-area2 {
     background: url(../img/Cuple-parallaxe.jpg) no-repeat center center / cover;
+    background-size: cover!important;
     position: relative;
     background-attachment: fixed;
 }
