@@ -1763,7 +1763,7 @@ home-page2
     background: url(../img/Cuple-parallaxe.jpg) no-repeat center center / cover;
     background-size: cover!important;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .welcome-area2:before {
