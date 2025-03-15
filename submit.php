@@ -28,7 +28,7 @@ $stmt = $conn->prepare("
 ");
 
 // Bind dei parametri (s = string, i = integer)
-$stmt->bind_param("ssiss", $name, $email, $guest, $kid_guest, $notes);
+$stmt->bind_param("ssiis", $name, $email, $guest, $kid_guest, $notes);
 
 // Esecuzione e controllo
 if ($stmt->execute()) {
