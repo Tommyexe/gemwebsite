@@ -18,12 +18,11 @@ if ($conn->connect_error) {
 $name = $_POST['name'];
 $email = $_POST['email'];
 $guest = $_POST['guest'];
-$events = $_POST['events'];
 $notes = $_POST['notes'];
 
 // Preparazione della query per evitare SQL injection
-$stmt = $conn->prepare("INSERT INTO partecipanti (name, email, guest, events, notes) VALUES (?, ?, ?, ?, ?)");
-$stmt->bind_param("ssiss", $name, $email, $guest, $events, $notes);
+$stmt = $conn->prepare("INSERT INTO partecipanti (name, email, guest, notes) VALUES (?, ?, ?, ?)");
+$stmt->bind_param("ssis", $name, $email, $guest, $notes);
 
 if ($stmt->execute()) {
     echo "Successo";

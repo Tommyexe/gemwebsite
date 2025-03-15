@@ -266,7 +266,7 @@ Home-page-one
 
 
 .sticky-header.sticky .header-area2 {
-    background: #fff;
+    background: #999F92;
     color: #333;
 }
 
@@ -286,7 +286,7 @@ Home-page-one
 
 .sticky-header.sticky .header-area2 .main-menu nav ul li:hover>a,
 .sticky-header.sticky .header-area2 .main-menu nav ul li.active>a {
-    color: #9a8c40;
+    color: #6A1C23;
 }
 
 .header-area2 .main-menu nav ul li:hover>a {
@@ -694,7 +694,7 @@ couple-area end
 }
 
 .clock-area {
-    background: #5e9a8d;
+    background: #999F92;
     padding: 14px 5px 20px 20px;
 }
 
@@ -858,7 +858,7 @@ couple-area end
     top: 0px;
     width: 100%;
     height: 100%;
-    background: rgba(94, 154, 140, 0.88);
+    background: #999F92;
     z-index: -1;
 }
 
@@ -1476,7 +1476,7 @@ guest-area
 ===============================*/
 
 .guest-area {
-    background: linear-gradient(rgba(100, 158, 147, 0.50), rgba(100, 158, 147, 0.50)), transparent url(../img/guest/1.jpg) center center/cover no-repeat fixed;
+    background: linear-gradient(rgba(153, 159, 146, 0.50), rgba(153, 159, 146, 0.768));
     padding: 100px 0;
     position: relative;
     background-attachment: fixed;
@@ -1613,7 +1613,7 @@ Gift-area
 footer-area
 ===============================*/
 .footer-area {
-    background: url(../img/footer/1.jpg) no-repeat center center / cover;
+    background: url(../img/Footer.jpg) no-repeat center center / cover;
     padding: 100px 0;
     position: relative;
     z-index: 1;
@@ -1727,7 +1727,6 @@ home-page2
 }
 
 .section-area {
-    background: url(../img/counter/3.jpg) no-repeat center center / cover;
     padding: 18px 0;
     position: relative;
     z-index: 1;
@@ -1757,7 +1756,7 @@ home-page2
 }
 
 .welcome-area2 {
-    background: url(../img/guest/2.jpg) no-repeat center center / cover;
+    background: url(../img/Cuple-parallaxe.jpg) no-repeat center center / cover;
     position: relative;
     background-attachment: fixed;
 }
