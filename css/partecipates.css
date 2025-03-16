@@ -1,0 +1,17 @@
+.participants-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .participants-table th,
+  .participants-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .participants-table th {
+    background-color: #f4f4f4;
+  }
+  
